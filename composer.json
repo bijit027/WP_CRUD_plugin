@@ -1,0 +1,19 @@
+{
+    "name": "bijit1997/wedevs-academy",
+    "description": "First plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Biit Deb"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WeDevs\\Academy\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
